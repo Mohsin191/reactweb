@@ -5,7 +5,7 @@ import { Outlet, Link } from "react-router-dom";
 function App() {
   return (
       <>
-<div className='bg-[url(jail.jpg)] absolute bg-fixed w-full h-screen md:w-full bg-center bg-cover bg-no-repeat font-mono overscroll-none'
+<div className='bg-[url(/jail.jpg)] absolute bg-fixed w-full h-screen md:w-full bg-center bg-cover bg-no-repeat font-mono overscroll-none'
 style={{ backgroundAttachment: 'fixed', overflowY: 'auto' , backgroundPosition: "center"}}
 >
         <div className=" md:hidden absolute text-center w-full py-4 md:bg-transparent bg-black bg-opacity-25">
